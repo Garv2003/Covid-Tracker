@@ -1,5 +1,29 @@
-# Vue 3 + TypeScript + Vite
+# Vue Covid-19 Tracker
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Displays the new/total cases and deaths globaly as well as per country
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## API
+
+This project uses the [covid19api.com](https://covid19api.com/) by [Kyle Redelinghuys](https://twitter.com/ksredelinghuys)
+
+## Vue 3 Syntax
+
+The code has been changed to use Vue 3 syntax. Check the initial commit for the original tutorial code, which should work for Vue 2 & 3
+
+### Setup
+
+```
+npm install
+```
+
+### Run
+
+```
+npm run serve
+```
+
+### Build
+
+```
+npm run build
+```
